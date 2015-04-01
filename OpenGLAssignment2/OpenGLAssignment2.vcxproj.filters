@@ -21,5 +21,13 @@
     <ClCompile Include="EntryPoint.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="objectWriter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="objectWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
