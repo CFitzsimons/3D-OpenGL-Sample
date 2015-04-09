@@ -18,13 +18,16 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EntryPoint.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="objectWriter.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="lighting.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lodepng.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="entryPoint.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,5 +38,13 @@
     <ClInclude Include="lighting.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="lodepng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\WoodFine0001_1_thumblarge.png">
+      <Filter>Source Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
